@@ -8,7 +8,15 @@
 ###################################################################################
 
 echo `clear`
-SERVERS=('1a_private' '1a_public' '1b_private' '1b_public')
+SERVERS=(
+    'server-db1'
+    'app-server04'
+    'ansible-server'
+    'k8s-master'
+    'mysql-dev-srv02'
+    )
+echo "SSH-Menu by Haim Cohen 2020"
+echo "---------------------------"
 
 echo "Server to connect:"
 for server in ${!SERVERS[*]}
