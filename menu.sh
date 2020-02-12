@@ -1,4 +1,12 @@
 #!/bin/bash
+###################################################################################
+# Title: menu.sh
+# Description: Bahs-Menu script to manage ssh connections
+# Original Author: Haim Cohen 
+# https://www.linkedin.com/in/haimc/
+# 12-Feb-2020
+###################################################################################
+
 echo `clear`
 SERVERS=('1a_private' '1a_public' '1b_private' '1b_public')
 
